@@ -367,6 +367,85 @@ h2 {
   justify-content: space-between;
 }
 
+footer {
+  color: #d6d6d6;
+  width: 80%;
+  margin: auto;
+}
+
+.class-container {
+  width: 33%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row svg {
+  margin-right: 5px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.questions {
+  width: 33%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: space-around;
+  justify-content: flex-end;
+}
+
+.buttons button {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    outline: none;
+    background: transparent;
+    border: 2px solid #7974d8;
+    color: #7974d8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #7974d8;
+  background: #7974d8;
+  color: #fff;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+button span {
+  font-size: 9px;
+}
+
+.questions h2 {
+  font-size: 20px;
+  text-align: start !important;
+  
+}
+footer .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.questions p {
+  margin: 15px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
+
 
 @media only screen and (max-width: 750px) {
   .footer-links {
