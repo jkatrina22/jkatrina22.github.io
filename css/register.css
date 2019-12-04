@@ -6,12 +6,12 @@ body {
 }
 
 .background {
-    width: 50%;
+    width: 800px;
     height: 100%;
     position: absolute;
     left: 0;
     z-index: -2;
-    margin-left: -50px;
+    margin-left: -150px;
 }
 
 .logo {
@@ -27,6 +27,9 @@ body {
   width: 35%;
   border: 1px solid #242529;
   border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 130px;
   /* height: 400px;
   display: flex; */
 }
@@ -70,5 +73,22 @@ button {
     padding: 0 15px;
     text-transform: uppercase;
     margin-top: 10px;
-    
-  }
+
+}
+
+.register p {
+    color: #A7A7A7 !important;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.planet {
+    width: 65%;
+    margin: 60px;
+}
