@@ -2,6 +2,7 @@ body {
   margin: 40px;
   background: #12131a;
   font-family: "Source Sans Pro", sans-serif;
+
 }
 
 /* header */
@@ -65,7 +66,7 @@ nav .item a {
 }
 
 .main-description {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .main-description {
@@ -270,6 +271,9 @@ p {
   padding: 10px;
   font-size: 150%;
 }
+.usersimg {
+  width: 40%;
+}
 
 .wrap p {
   font-size: 16px;
@@ -408,7 +412,7 @@ footer {
     cursor: pointer;
 }
 
-button:hover {
+.buttons button:hover {
   border: 2px solid #7974d8;
   background: #7974d8;
   color: #fff;
