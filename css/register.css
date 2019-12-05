@@ -43,6 +43,11 @@ body {
     color: #c5c5c5;
     font-size: 13px;
 }
+
+.top a {
+    color: #c5c5c5;
+}
+
 .card-content {
     padding: 20px;
 }

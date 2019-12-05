@@ -156,6 +156,10 @@ h3 {
   color: white;
 }
 
+.title h2 {
+  padding-top: 19px;
+}
+
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 13px;
@@ -282,7 +286,8 @@ p {
 h2 {
   color: white;
   text-align: center;
-  padding: 60px;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 /* panel 3 */
