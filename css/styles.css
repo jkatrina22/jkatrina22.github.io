@@ -50,7 +50,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-top: 2px;
-  position: absolute;
+  position: fixed; 
   top: 0;
   text-transform: uppercase;
   width: 80%;
@@ -186,7 +186,7 @@ p {
   cursor: pointer;
   height: 50px;
   width: 250px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: 2px solid #6c6ce7;
   color: #202231;
   font-weight: 600 !important;
@@ -200,8 +200,15 @@ p {
   grid-row: 3 / 4;
 }
 
+.icon {
+  width: 20px;
+  margin-right: 5px;
+}
+
 .space {
-  border-bottom: 2px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  width: 80%;
+  margin: auto;
   grid-column: 1 / 4;
   grid-row: 3.5 / 4;
 }
@@ -211,7 +218,7 @@ p {
   grid-row: 0.5 / 3;
 }
 .a h3 {
-  border-bottom: 2px solid rgb(199, 168, 195);
+  border-bottom:2px solid rgb(199, 168, 195);
 }
 .b {
   grid-column: 2 / 3;
@@ -449,6 +456,10 @@ footer .top {
 
 .footer-bottom .logo {
   width: 30px;
+}
+
+.buttons button {
+  height: 40px;
 }
 
 .copyright {
