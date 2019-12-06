@@ -167,7 +167,7 @@ p {
   display: grid;
   grid-gap: 80px;
   grid-template-columns: 27vw 27vw 27vw;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 200px 200px 200px;
   background-color: #12131a;
   color: #12131a;
 }
