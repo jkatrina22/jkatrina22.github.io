@@ -491,6 +491,27 @@ footer p {
     padding-top: 50px;
     padding-bottom: 0px;
   }
+
+  .right {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    width: 30px;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 670px) {
