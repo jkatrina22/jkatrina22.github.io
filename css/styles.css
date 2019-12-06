@@ -309,7 +309,7 @@ h2 {
 /* panel 3 */
 .wraps {
   display: grid;
-  grid-gap: 60px;
+  grid-gap: 5px;
   background-color: #12131a;
   color: #444;
 }
