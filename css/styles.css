@@ -326,7 +326,9 @@ h2 {
   color: white;
 
 }
-
+.box .h3{
+  font-size: 50;
+}
 .a {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
