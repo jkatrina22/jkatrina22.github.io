@@ -183,3 +183,139 @@ h1 {
     width: 400px;
     right: 0;
   }
+
+
+@media only screen and (max-width: 1100px) {
+    .coins {
+      width: 100%;
+    }
+  
+    .main-image img {
+      width: 300px;
+    }
+  
+    .main-description {
+      width: 350px;
+    }
+}
+  
+@media only screen and (max-width: 750px) {
+    .footer-links {
+      flex-direction: column;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 0px;
+    }
+  
+    .header {
+      flex-direction: column;
+    }
+  
+    .main-image img {
+      margin-top: 10px;
+    }
+    .get-started-input input {
+      display: none;
+    }
+  
+    .get-started-input img {
+      display: none;
+    }
+    .get-started-button {
+      border-radius: 3px !important;
+    }
+  
+    .right {
+      display: none;
+    }
+  
+    .menu {
+      display: block;
+      width: 30px;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  
+    .left {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+      align-items: center;
+    }
+}
+  
+@media only screen and (max-width: 670px) {
+    .top {
+      margin-top: 20px;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .class-container {
+      display: none !important;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .top {
+      flex-direction: column !important;
+      padding: 30px;
+      margin-top: 0 !important;
+    }
+  
+    .coins {
+      margin: 20px;
+    }
+  
+    .questions {
+      width: 100% !important;
+      text-align: center;
+    }
+  
+    .class-container {
+      width: 100%;
+      display: flex;
+      justify-content: center !important;
+    }
+  
+    .buttons {
+      margin-top: 10px;
+      width: 100% !important;
+    }
+  
+    .questions .row {
+      justify-content: center;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .buttons {
+      width: 90%;
+    }
+}
+  
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      display: grid;
+      grid-gap: 80px;
+      grid-template-columns: 10vw;
+      grid-template-rows: 300px 300px 300px 300px 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+  .free {
+    width: 400px;
+  }
+
+  .five {
+    width: 400px;
+  }
+
+  .thirty {
+    width: 400px;
+  }
+}
