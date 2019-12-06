@@ -482,6 +482,14 @@ footer p {
   .coins {
     width: 100%;
   }
+
+  .main-image img {
+    width: 300px;
+  }
+
+  .main-description {
+    width: 350px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -490,6 +498,24 @@ footer p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 0px;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .main-image img {
+    margin-top: 10px;
+  }
+  .get-started-input input {
+    display: none;
+  }
+
+  .get-started-input img {
+    display: none;
+  }
+  .get-started-button {
+    border-radius: 3px !important;
   }
 
   .right {
