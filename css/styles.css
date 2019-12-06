@@ -309,32 +309,57 @@ h2 {
 /* panel 3 */
 .wraps {
   display: grid;
-  grid-gap: 5px;
+  grid-gap: 60px;
   background-color: #12131a;
   color: #444;
+  position: relative;
 }
 
-.boxs {
+.box {
   background-color: #12131a;
   color: #bdc3c7;
   border-radius: 5px;
   padding: 15px;
   font-size: 150%;
+  position: relative;
+  text-align: center;
+  color: white;
+
 }
 
 .a {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
+.a .centered {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .d {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
+.d .centered{position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .f {
   grid-column: 3 / 4;
   grid-row: 1 / 2;
+}
+.f .centered{
+  
+  z-index: 2;
+  position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 /* footer */
