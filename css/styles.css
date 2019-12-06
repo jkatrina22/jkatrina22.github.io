@@ -293,7 +293,7 @@ h2 {
   color: white;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 
 /* panel 3 */
@@ -531,4 +531,8 @@ footer p {
   .buttons {
     width: 90%;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
