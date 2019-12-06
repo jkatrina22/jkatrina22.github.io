@@ -616,5 +616,10 @@ footer p {
 }
 
 @media only screen and (max-width: 600px) {
-  
+  .wrapper {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 10vw;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+  }
 }
